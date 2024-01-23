@@ -14,10 +14,10 @@ spec:
     spec:
       containers:
         - name: ekart
-          image: adijaiswal/ekart:latest # Image that will be used to containers in the cluster
+          image: pd1416/ekart:latest # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
-            - containerPort: 8070 # The port that the container is running on in the cluster
+            - containerPort: 8080 # The port that the container is running on in the cluster
 
 
 ---
